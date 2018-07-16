@@ -1,3 +1,11 @@
+# CHIPS specific notes:
+
+- change to `chipsln-rpc` instead of `lightning-rpc` on the following line: `rpcPath = path.join(rpcPath, '/chipsln-rpc');` in `recksplorer/node_modules/lightning-client`
+- start recksplorer with `node server.js` with following params:
+  - `--daemon clightning`
+  - `--clightningDir /home/<user>/.chipsln/` 
+  - `-p <random port>`
+
 # Lightning Network Explorer
 
 This is a simple lightning network explorer that uses [LND](https://github.com/lightningnetwork/lnd) or [c-lightning](https://github.com/ElementsProject/lightning) as a source of network graph. You can see it live on https://lnmainnet.gaben.win/
