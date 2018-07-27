@@ -32,7 +32,7 @@ function ParseAxiosError(error)
 
 function GetTransactionURL(txid)
 {
-    return 'https://www.smartbit.com.au/tx/' + txid;
+    return 'https://explorer.chips.cash/tx/' + txid;
 }
 
 export {

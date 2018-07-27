@@ -70,10 +70,16 @@ class DataStore {
     }
 
     fetchPrice() {
-        Axios.get('https://blockchain.info/ticker').then((result) => {
-            this.usdbtc = result.data.USD.last;
+        Axios.get('https://api.coinmarketcap.com/v2/ticker/1986/?convert=USD').then((result) => {
+            this.usdbtc = result.data.data.quotes.USD.price;
         });
     }
+
+    // fetchPrice() {
+    //     Axios.get('https://blockchain.info/ticker').then((result) => {
+    //         this.usdbtc = result.data.USD.last;
+    //     });
+    // }
 }
 
 export { ObjectTypes, DataStore }

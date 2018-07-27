@@ -16,8 +16,8 @@ export default class Credits extends React.Component {
             <table className={AppStyles.datatable}>
                 <tbody>
                     <tr>
-                        <td>BTC</td>
-                        <td>39AqCMaBw4nzNxQrPsqYeaNrCC2msrFu6Y</td>
+                        <td>CHIPS</td>
+                        <td>bR26Qt8WscBda6k7P5ug92STS8VSuf8icR</td>
                     </tr>
                     <tr>
                         <td>LN</td>
@@ -25,7 +25,7 @@ export default class Credits extends React.Component {
                     </tr>
                     <tr>
                         <td>Source</td>
-                        <td><a href="https://github.com/chemicstry/recksplorer" target="_blank">https://github.com/chemicstry/recksplorer</a></td>
+                        <td><a href="https://github.com/n41r0j/recksplorer" target="_blank">https://github.com/n41r0j/recksplorer</a></td>
                     </tr>
                 </tbody>
             </table>
