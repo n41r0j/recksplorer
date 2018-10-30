@@ -1,5 +1,8 @@
 # CHIPS specific notes:
 
+- install nvm: https://github.com/creationix/nvm
+- `nvm install 8.9.0`
+- run `npm install` inside `recksplorer`
 - change to `chipsln-rpc` instead of `lightning-rpc` on the following line: `rpcPath = path.join(rpcPath, '/chipsln-rpc');` in `recksplorer/node_modules/lightning-client`
 - start recksplorer with `node server.js` with following params:
   - `--daemon clightning`
